@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Glow Beauty Salon</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <header>
+
+        <div class="logo">
+            <!-- Replace glowlogo.png with your actual logo filename -->
+            <img src="./salon2.png"
+                 alt="Glow Beauty Salon Logo"
+                 onerror="this.style.display='none';
+                 document.getElementById('logoText').style.display='block';">
+
+            <div class="logo-text" id="logoText" style="display:none;">
+                GLOW
+            </div>
+        </div>
+
+        <button class="menu-toggle"
+                onclick="toggleMenu()"
+                aria-label="Toggle navigation"
+                aria-expanded="false">
+            ☰
+        </button>
+
+        <nav id="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- WELCOME SECTION -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <h1>Welcome to Glow Beauty Salon</h1>
+
+            <p>
+                Enhancing Your Natural Beauty,
+                One Touch at a Time.
+                Experience beauty, elegance and confidence
+                with our professional services.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#contact" class="btn primary-btn">
+                    Book an Appointment
+                </a>
+
+                <a href="#services" class="btn secondary-btn">
+                    Explore Our Services
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ABOUT US SECTION -->
+    <section id="about">
+
+        <h2 class="section-title">About Our Salon</h2>
+
+        <div class="about-container">
+
+            <p>
+                Glow Beauty Salon is a premier beauty destination
+                dedicated to enhancing your natural beauty and
+                providing exceptional beauty services.
+
+                Our team of skilled professionals is committed
+                to delivering top-notch treatments and creating
+                a relaxing and enjoyable experience for our clients.
+
+                From professional makeup to beautiful hairstyles
+                and nail treatments, we aim to make every client
+                look beautiful and feel confident.
+
+                At Glow Beauty Salon, your beauty and satisfaction
+                are our greatest priorities.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services">
+
+        <h2 class="section-title">Our Services</h2>
+
+        <p class="section-description">
+            Discover our range of professional beauty treatments
+            designed to make you look and feel your best.
+        </p>
+
+        <div class="services-container">
+
+            <div class="service-card">
+
+                <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800"
+                     alt="Professional makeup">
+
+                <h3>Makeup</h3>
+
+                <p>
+                    Professional makeup for weddings,
+                    parties, special occasions and everyday beauty.
+                </p>
+
+            </div>
+
+            <div class="service-card">
+
+                <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800"
+                     alt="Manicure treatment">
+
+                <h3>Manicure</h3>
+
+                <p>
+                    Beautiful nail care, nail polishing
+                    and treatments to keep your hands looking elegant.
+                </p>
+
+            </div>
+
+            <div class="service-card">
+
+                <img src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?w=800"
+                     alt="Pedicure treatment">
+
+                <h3>Pedicure</h3>
+
+                <p>
+                    Relaxing foot treatments and professional
+                    nail care for beautiful and healthy-looking feet.
+                </p>
+
+            </div>
+
+            <div class="service-card">
+
+                <img src="hairstyling.jpg"
+                     alt="Hair styling">
+
+                <h3>Hair Styling</h3>
+
+                <p>
+                    Beautiful hairstyles, professional styling
+                    and hair care for every occasion.
+                </p>
+
+            </div>
+
+            <div class="service-card">
+
+                <img src="https://images.unsplash.com/photo-1600948836101-f9ffda59d250?w=800"
+                     alt="Hair treatment">
+
+                <h3>Hair Treatment</h3>
+
+                <p>
+                    Nourishing hair treatments designed
+                    to maintain healthy and beautiful hair.
+                </p>
+
+            </div>
+
+            <div class="service-card">
+
+                <img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=800"
+                     alt="Beauty treatment">
+
+                <h3>Beauty Care</h3>
+
+                <p>
+                    Enjoy beauty and personal care treatments
+                    that help you feel refreshed and confident.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section id="gallery">
+
+        <h2 class="section-title">Our Gallery</h2>
+
+        <p class="section-description">
+            Take a look at our beauty work, hairstyles
+            and professional salon experience.
+        </p>
+
+        <div class="gallery-container">
+
+            <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=800"
+                 alt="Beauty makeup">
+
+            <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800"
+                 alt="Salon beauty treatment">
+
+            <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800"
+                 alt="Nail art">
+
+            <img src="./hairstyling.jpg"
+                 alt="Hair styling">
+
+            <img src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?w=800"
+                 alt="Pedicure">
+
+            <img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=800"
+                 alt="Beauty salon">
+
+        </div>
+
+    </section>
+
+    <!-- BOOKING SECTION -->
+    <section class="booking">
+
+        <h2>Ready for a Beauty Experience?</h2>
+
+        <p>
+            Give yourself the beauty treatment you deserve.
+            Contact us today to make an appointment.
+        </p>
+
+        <a href="#contact" class="btn primary-btn">
+            Contact Us Today
+        </a>
+
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+
+        <h2 class="section-title">Our Contacts</h2>
+
+        <p class="section-description">
+            We would love to hear from you.
+            Get in touch with us for bookings and enquiries.
+        </p>
+
+        <div class="contact-container">
+
+            <div class="contact-card">
+
+                <h3>Phone</h3>
+
+                <p>
+                    <a href="tel:+256XXXXXXXXX">
+                        +256 XXX XXX XXX
+                    </a>
+                </p>
+
+            </div>
+
+            <div class="contact-card">
+
+                <h3>Email</h3>
+
+                <p>
+                    <a href="mailto:info@glowbeautysalon.com">
+                        info@glowbeautysalon.com
+                    </a>
+                </p>
+
+            </div>
+
+            <div class="contact-card">
+
+                <h3>Location</h3>
+
+                <p>
+                    Add your salon's actual address here.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            Follow us on social media for more updates
+            and beauty promotions.
+        </p>
+
+        <p style="margin-top: 12px;">
+            &copy; <span id="year"></span>
+            <span>Glow Beauty Salon</span>.
+            All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script>
+
+        function toggleMenu() {
+
+            const navbar = document.getElementById("navbar");
+
+            const button = document.querySelector(".menu-toggle");
+
+            navbar.classList.toggle("active");
+
+            button.setAttribute(
+                "aria-expanded",
+                navbar.classList.contains("active")
+            );
+
+        }
+
+        // Automatically close mobile menu after clicking a link
+        document.querySelectorAll("#navbar a").forEach(link => {
+
+            link.addEventListener("click", function() {
+
+                document.getElementById("navbar")
+                    .classList.remove("active");
+
+                document.querySelector(".menu-toggle")
+                    .setAttribute("aria-expanded", "false");
+
+            });
+
+        });
+
+        // Automatically update copyright year
+        document.getElementById("year").textContent =
+            new Date().getFullYear();
+
+    </script>
+
+</body>
+</html>
